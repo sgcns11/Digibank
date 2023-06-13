@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ExcludeGroup Suit">
+  <test thread-count="5" name="ExcludeGroup Test">
+	  <groups>
+		  <run>
+			  <include name="include-group"></include>
+			  <exclude name="exclude-groups"></exclude> 			  	  
+		  </run>
+		 </groups>
+    <classes>
+      <class name="com.banking.Digibank.ExcludeGroups"/>
+    </classes>
+  </test> <!-- ExcludeGroup Test -->
+</suite> <!-- ExcludeGroup Suit -->

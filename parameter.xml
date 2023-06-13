@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterSuite">
+	<parameter name ="username" value ="Stoumee"/>
+	<parameter name ="password" value ="Simplelearn"/>
+	
+  <test thread-count="5" name="ParameterTest">
+	     <classes>
+      <class name="com.banking.Digibank.ParameterTest"/>
+    </classes>
+	 
+  </test> <!-- ParameterTest -->
+</suite> <!-- ParameterSuite -->
